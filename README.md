@@ -146,9 +146,25 @@ A dedicated drill-through page allows users to select a product and analyze:
 - Product Quantity
 - Revenue Trend
 - Product Category
-🖼️ Dashboard Preview
+## 🖼️ Dashboard Preview
 
-💡 Key Business Insights
+### Executive Overview
+
+![Executive Overview](dashboard-overview.png)
+
+### Product & Category Analysis
+
+![Product & Category Analysis](product-category-analysis.png)
+
+### Customer & Regional Performance
+
+![Customer & Regional Performance](customer-regional-performance.png)
+
+### Product Details — Drill-Through
+
+![Product Details](product-details.png)
+
+## 💡 Key Business Insights
 
 The dashboard can be used to identify:
 
@@ -159,13 +175,18 @@ The dashboard can be used to identify:
 - Profitability variations across categories
 - Year-over-year changes in business performance
 
+## 📁 Repository Structure
 
-📁 Repository Structure
+```text
 Sales_Business_Performance_Dashboard/
 │
 ├── Sales_Business_Performance_Dashboard.pbix
+├── README.md
 ├── dashboard-overview.png
-└── README.md
+├── product-category-analysis.png
+├── customer-regional-performance.png
+└── product-details.png
+
 
 🚀 How to Use
 Download the .pbix file from this repository.
@@ -173,6 +194,7 @@ Open it using Power BI Desktop.
 Explore the dashboard pages.
 Use slicers to filter the analysis.
 Select products to explore the drill-through Product Details page.
+
 
 📌 Project Highlights
 Built a star-schema Power BI data model
